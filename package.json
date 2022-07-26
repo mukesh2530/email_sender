@@ -1,0 +1,19 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "description": "Send email for the password forgot and reset functionality.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js "
+  },
+  "author": "mukesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5",
+    "nodemailer": "^6.7.7",
+    "validator": "^13.7.0"
+  }
+}
